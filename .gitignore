@@ -1,0 +1,29 @@
+.*
+!.gitignore
+!.gitmodules
+!.gitattributes
+!.editorconfig
+
+# C/C++ files
+*.out
+
+# CLang files
+!.clang-format
+
+# CMake files
+build*/
+
+# VSCode files
+!.vscode/
+
+# GitHub files
+!.github/
+
+# Files generated accidently by wxFormBuilder
+noname.*
+
+# Generated files
+*.pot
+
+# Backup files
+*~
