@@ -13,3 +13,6 @@ target_link_libraries(TestFileStore PRIVATE ${LIB_NAME})
 
 add_test(TestSectionRecord test.cpp TestSectionRecord.cpp)
 target_link_libraries(TestSectionRecord PRIVATE ${LIB_NAME})
+
+add_test(TestSqlite3Store test.cpp TestSqlite3Store.cpp)
+target_link_libraries(TestSqlite3Store PRIVATE ${LIB_NAME})

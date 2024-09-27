@@ -3,19 +3,19 @@
 #include <filesystem>
 #include <sstream>
 
-#include "FileStore.h"
+#include "Sqlite3Store.h"
 
-static const char *fileName = "file-store-test.dat";
+static const char *fileName = "sqlite3-store-test.dat";
 
 TEST_CASE("write_read_delete")
 {
     const char *sectionName = "a1b2c3";
-    auto file = new FileStore(fileName, "123", "ABC");
+    auto file = new Sqlite3Store(fileName, "123", "ABC");
     file->create();
     std::string str("This is a test.");
     file->writeSection(sectionName, str);
     delete file;
-    file = new FileStore(fileName, "123", "ABC");
+    file = new Sqlite3Store(fileName, "123", "ABC");
     file->open();
     CHECK(file->contains(sectionName));
     std::string str1;
@@ -29,7 +29,7 @@ TEST_CASE("write_read_delete")
 
 TEST_CASE("smoke")
 {
-    auto file = new FileStore(fileName, "123", "ABC");
+    auto file = new Sqlite3Store(fileName, "123", "ABC");
     file->create();
     std::stringstream str;
     for (int i = 0; i < 100; i++) {
@@ -39,7 +39,7 @@ TEST_CASE("smoke")
         std::stringstream().swap(str);
     }
     delete file;
-    file = new FileStore(fileName, "123", "ABC");
+    file = new Sqlite3Store(fileName, "123", "ABC");
     file->open();
     std::string s;
     for (int i = 0; i < 100; i++) {
@@ -54,16 +54,16 @@ TEST_CASE("smoke")
 
 TEST_CASE("change_pass")
 {
-    auto file = new FileStore(fileName, "123", "ABC");
+    auto file = new Sqlite3Store(fileName, "123", "ABC");
     file->create();
     std::string str("This is a test.");
     file->writeSection("a1b2c3", str);
     delete file;
-    file = new FileStore(fileName, "123", "ABC");
+    file = new Sqlite3Store(fileName, "123", "ABC");
     file->open();
     file->changePass("DEF");
     delete file;
-    file = new FileStore(fileName, "DEF", "ABC");
+    file = new Sqlite3Store(fileName, "DEF", "ABC");
     file->open();
     CHECK(file->contains("a1b2c3"));
     std::string str1;
@@ -75,7 +75,7 @@ TEST_CASE("change_pass")
 
 TEST_CASE("operator==")
 {
-    auto file = new FileStore("abc", "123", "ABC");
-    auto file1 = new FileStore("abc", "456", "DEF");
+    auto file = new Sqlite3Store("abc", "123", "ABC");
+    auto file1 = new Sqlite3Store("abc", "456", "DEF");
     CHECK(*file == *file1);
 }

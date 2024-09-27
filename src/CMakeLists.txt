@@ -1,3 +1,11 @@
-add_lib(${LIB_NAME} Cache.cpp Crypto.cpp FileStore.cpp SectionRecord.cpp)
+include_directories(${CMAKE_SOURCE_DIR}/external/sqlite-amalgamation-3460100)
 
-target_link_libraries(${LIB_NAME} PUBLIC libcryptopp.a)
+add_lib(${LIB_NAME}
+    Cache.cpp
+    Crypto.cpp
+    FileStore.cpp
+    SectionRecord.cpp
+    Sqlite3Store.cpp
+)
+
+target_link_libraries(${LIB_NAME} PUBLIC libcryptopp.a sqlite3)
