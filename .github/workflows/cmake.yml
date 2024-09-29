@@ -28,8 +28,14 @@ jobs:
         with:
           submodules: recursive
 
-      - name: Install Crypto++
-        run: sudo apt satisfy libnotify4 libcrypto++-dev
+      - name: Add wxWidgets repository key
+        run: sudo apt-key adv --recv-key --keyserver keyserver.ubuntu.com 6856E1DB1AC82609
+
+      - name: Add wxWidgets repository
+        run: sudo apt-add-repository 'deb http://repos.codelite.org/wx3.2.4/ubuntu/ jammy universe'
+
+      - name: Install Crypto++ and wxWidgets
+        run: sudo apt satisfy libnotify4 libcrypto++-dev libwxgtk3.2unofficial-dev gettext
 
       - name: Configure CMake
         working-directory: ${{github.workspace}}

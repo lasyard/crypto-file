@@ -2,6 +2,8 @@ set(CMAKE_MACOSX_BUNDLE FALSE)
 
 include_directories(${CMAKE_SOURCE_DIR}/src)
 
+add_subdirectory(wx)
+
 add_test(TestCache test.cpp TestCache.cpp)
 target_link_libraries(TestCache PRIVATE ${LIB_NAME})
 
