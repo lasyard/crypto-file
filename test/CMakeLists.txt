@@ -8,6 +8,9 @@ target_link_libraries(TestCache PRIVATE ${LIB_NAME})
 add_test(TestCrypto test.cpp TestCrypto.cpp)
 target_link_libraries(TestCrypto PRIVATE ${LIB_NAME})
 
+add_test(TestDirectoryStore test.cpp TestDirectoryStore.cpp)
+target_link_libraries(TestDirectoryStore PRIVATE ${LIB_NAME})
+
 add_test(TestFileStore test.cpp TestFileStore.cpp)
 target_link_libraries(TestFileStore PRIVATE ${LIB_NAME})
 
