@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<resource xmlns="http://www.wxwidgets.org/wxxrc" version="2.5.3.0">
+  <object class="wxDialog" name="dlgChangePass">
+    <size>360,189</size>
+    <style>wxDEFAULT_DIALOG_STYLE</style>
+    <title></title>
+    <centered>1</centered>
+    <object class="wxBoxSizer" name="sizer">
+      <orient>wxVERTICAL</orient>
+      <object class="sizeritem">
+        <flag>wxEXPAND</flag>
+        <border>5</border>
+        <option>1</option>
+        <object class="wxFlexGridSizer" name="fgSizer">
+          <vgap>0</vgap>
+          <hgap>0</hgap>
+          <growablerows></growablerows>
+          <growablecols>1</growablecols>
+          <rows>3</rows>
+          <cols>2</cols>
+          <object class="sizeritem">
+            <flag>wxALL</flag>
+            <border>5</border>
+            <option>0</option>
+            <object class="wxStaticText" name="staticCurrent">
+              <label>Current password</label>
+              <wrap>-1</wrap>
+            </object>
+          </object>
+          <object class="sizeritem">
+            <flag>wxALL|wxEXPAND</flag>
+            <border>5</border>
+            <option>1</option>
+            <object class="wxTextCtrl" name="passCurrent">
+              <style>wxTE_PASSWORD</style>
+              <value></value>
+              <maxlength>0</maxlength>
+            </object>
+          </object>
+          <object class="sizeritem">
+            <flag>wxALL</flag>
+            <border>5</border>
+            <option>0</option>
+            <object class="wxStaticText" name="staticNew">
+              <label>New password</label>
+              <wrap>-1</wrap>
+            </object>
+          </object>
+          <object class="sizeritem">
+            <flag>wxALL|wxEXPAND</flag>
+            <border>5</border>
+            <option>1</option>
+            <object class="wxTextCtrl" name="passNew">
+              <style>wxTE_PASSWORD</style>
+              <value></value>
+              <maxlength>0</maxlength>
+            </object>
+          </object>
+          <object class="sizeritem">
+            <flag>wxALL</flag>
+            <border>5</border>
+            <option>0</option>
+            <object class="wxStaticText" name="staticNew2">
+              <label>Confirm new password</label>
+              <wrap>-1</wrap>
+            </object>
+          </object>
+          <object class="sizeritem">
+            <flag>wxALL|wxEXPAND</flag>
+            <border>5</border>
+            <option>1</option>
+            <object class="wxTextCtrl" name="passNew2">
+              <style>wxTE_PASSWORD</style>
+              <value></value>
+              <maxlength>0</maxlength>
+            </object>
+          </object>
+        </object>
+      </object>
+      <object class="sizeritem">
+        <flag>wxEXPAND</flag>
+        <border>5</border>
+        <option>1</option>
+        <object class="wxStdDialogButtonSizer" name="buttons">
+          <object class="button">
+            <object class="wxButton" name="wxID_OK"/>
+          </object>
+          <object class="button">
+            <object class="wxButton" name="wxID_CANCEL"/>
+          </object>
+        </object>
+      </object>
+    </object>
+  </object>
+</resource>

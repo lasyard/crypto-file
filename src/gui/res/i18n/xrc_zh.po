@@ -1,0 +1,85 @@
+# Chinese translations for crypto-file-viewer package.
+# Copyright (C) 2024 Lasy
+# This file is distributed under the same license as the crypto-file-viewer package.
+# Automatically generated, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: crypto-file-viewer 1.0.0\n"
+"Report-Msgid-Bugs-To: lasyard@yeah.net\n"
+"POT-Creation-Date: 2024-09-30 16:49+0800\n"
+"PO-Revision-Date: 2024-09-30 16:49+0800\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: res/menu_bar.xrc:5
+msgid "File"
+msgstr "文件"
+
+#: res/menu_bar.xrc:7
+msgid "&New"
+msgstr "新建"
+
+#: res/menu_bar.xrc:12
+msgid "&Open"
+msgstr "打开"
+
+#: res/menu_bar.xrc:17
+msgid "&Save"
+msgstr "保存"
+
+#: res/menu_bar.xrc:22
+msgid "Save As"
+msgstr "另存为"
+
+#: res/menu_bar.xrc:27
+msgid "Close"
+msgstr "关闭"
+
+#: res/menu_bar.xrc:33
+msgid "Change Password"
+msgstr "修改密码"
+
+#: res/menu_bar.xrc:39
+msgid "Edit"
+msgstr "编辑"
+
+#: res/menu_bar.xrc:41
+msgid "Insert"
+msgstr "插入片段"
+
+#: res/menu_bar.xrc:46
+msgid "Delete"
+msgstr "删除片段"
+
+#: res/menu_bar.xrc:52
+msgid "Help"
+msgstr "帮助"
+
+#: res/menu_bar.xrc:54
+msgid "About"
+msgstr "关于"
+
+#: res/menu_bar.xrc:59
+msgid "License"
+msgstr "版权信息"
+
+#: res/menu_bar.xrc:64
+msgid "wxWidgets Information"
+msgstr "wxWidgets 信息"
+
+#: res/widgets.xrc:26
+msgid "Current password"
+msgstr "现密码"
+
+#: res/widgets.xrc:45
+msgid "New password"
+msgstr "新密码"
+
+#: res/widgets.xrc:64
+msgid "Confirm new password"
+msgstr "新密码确认"

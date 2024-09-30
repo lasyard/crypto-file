@@ -10,3 +10,5 @@ add_lib(${LIB_NAME}
 )
 
 target_link_libraries(${LIB_NAME} PUBLIC libcryptopp.a sqlite3)
+
+add_subdirectory(gui)

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<resource xmlns="http://www.wxwidgets.org/wxxrc" version="2.5.3.0">
+  <object class="wxMenuBar" name="menuBar">
+    <object class="wxMenu" name="fileMenu">
+      <label>File</label>
+      <object class="wxMenuItem" name="wxID_NEW">
+        <label>_New</label>
+        <accel>Ctrl+N</accel>
+        <help></help>
+      </object>
+      <object class="wxMenuItem" name="wxID_OPEN">
+        <label>_Open</label>
+        <accel>Ctrl+O</accel>
+        <help></help>
+      </object>
+      <object class="wxMenuItem" name="wxID_SAVE">
+        <label>_Save</label>
+        <accel>Ctrl+S</accel>
+        <help></help>
+      </object>
+      <object class="wxMenuItem" name="wxID_SAVEAS">
+        <label>Save As</label>
+        <accel>Ctrl+Shift+S</accel>
+        <help></help>
+      </object>
+      <object class="wxMenuItem" name="wxID_CLOSE">
+        <label>Close</label>
+        <accel>Ctrl+W</accel>
+        <help></help>
+      </object>
+      <object class="separator"/>
+      <object class="wxMenuItem" name="changePass">
+        <label>Change Password</label>
+        <accel></accel>
+        <help></help>
+      </object>
+    </object>
+    <object class="wxMenu" name="editMenu">
+      <label>Edit</label>
+      <object class="wxMenuItem" name="insert">
+        <label>Insert</label>
+        <accel>Enter</accel>
+        <help></help>
+      </object>
+      <object class="wxMenuItem" name="wxID_DELETE">
+        <label>Delete</label>
+        <accel>Delete</accel>
+        <help></help>
+      </object>
+    </object>
+    <object class="wxMenu" name="helpMenu">
+      <label>Help</label>
+      <object class="wxMenuItem" name="about">
+        <label>About</label>
+        <accel></accel>
+        <help></help>
+      </object>
+      <object class="wxMenuItem" name="license">
+        <label>License</label>
+        <accel></accel>
+        <help></help>
+      </object>
+      <object class="wxMenuItem" name="wxInfo">
+        <label>wxWidgets Information</label>
+        <accel></accel>
+        <help></help>
+      </object>
+    </object>
+  </object>
+</resource>

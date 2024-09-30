@@ -1,0 +1,7 @@
+CfvApp.cpp
+CfvDocument.cpp
+CfvMainFrame.cpp
+CfvPanel.cpp
+CfvView.cpp
+ChangePassDialog.cpp
+Utils.cpp
