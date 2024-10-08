@@ -1,5 +1,5 @@
-#ifndef _GUI_COMMON_H_
-#define _GUI_COMMON_H_
+#ifndef _CRYPTO_FILE_GUI_COMMON_H_
+#define _CRYPTO_FILE_GUI_COMMON_H_
 
 #include <wx/log.h>
 #include <wx/string.h>
@@ -35,4 +35,4 @@ inline std::string s(const wxString &str)
     return str.utf8_string();
 }
 
-#endif /* _GUI_COMMON_H_ */
+#endif /* _CRYPTO_FILE_GUI_COMMON_H_ */

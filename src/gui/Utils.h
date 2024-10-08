@@ -1,5 +1,5 @@
-#ifndef _GUI_UTILS_H_
-#define _GUI_UTILS_H_
+#ifndef _CRYPTO_FILE_GUI_UTILS_H_
+#define _CRYPTO_FILE_GUI_UTILS_H_
 
 class wxEvent;
 class wxString;
@@ -24,4 +24,4 @@ void ShowTextBox(const wxString &title, const wxString &text);
 
 }; // namespace Utils
 
-#endif /* _GUI_UTILS_H_ */
+#endif /* _CRYPTO_FILE_GUI_UTILS_H_ */

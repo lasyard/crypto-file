@@ -1,5 +1,5 @@
-#ifndef _FILE_STORE_H_
-#define _FILE_STORE_H_
+#ifndef _CRYPTO_FILE_FILE_STORE_H_
+#define _CRYPTO_FILE_FILE_STORE_H_
 
 #include <fstream>
 
@@ -46,4 +46,4 @@ private:
     friend std::ostream &operator<<(std::ostream &os, const FileStore &obj);
 };
 
-#endif /* _FILE_STORE_H_ */
+#endif /* _CRYPTO_FILE_FILE_STORE_H_ */

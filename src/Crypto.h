@@ -1,5 +1,5 @@
-#ifndef _CRYPTO_H_
-#define _CRYPTO_H_
+#ifndef _CRYPTO_FILE_CRYPTO_H_
+#define _CRYPTO_FILE_CRYPTO_H_
 
 #include <iostream>
 #include <string>
@@ -56,4 +56,4 @@ void newKey(byte key[CRYPTO_KEY_LEN]);
 
 void setIV(byte iv[], const std::string &str);
 
-#endif /* _CRYPTO_H_ */
+#endif /* _CRYPTO_FILE_CRYPTO_H_ */

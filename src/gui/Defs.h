@@ -1,5 +1,5 @@
-#ifndef _GUI_DEFS_H_
-#define _GUI_DEFS_H_
+#ifndef _CRYPTO_FILE_GUI_DEFS_H_
+#define _CRYPTO_FILE_GUI_DEFS_H_
 
 #include <wx/xrc/xmlres.h>
 
@@ -10,4 +10,4 @@
 #define ID_LICENSE     XRCID("license")
 #define ID_WX_INFO     XRCID("wxInfo")
 
-#endif /* _GUI_DEFS_H_ */
+#endif /* _CRYPTO_FILE_GUI_DEFS_H_ */

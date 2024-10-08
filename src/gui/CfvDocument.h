@@ -1,5 +1,5 @@
-#ifndef _GUI_CFV_DOCUMENT_H_
-#define _GUI_CFV_DOCUMENT_H_
+#ifndef _CRYPTO_FILE_GUI_CFV_DOCUMENT_H_
+#define _CRYPTO_FILE_GUI_CFV_DOCUMENT_H_
 
 #include <wx/docview.h>
 
@@ -47,4 +47,4 @@ private:
     CfvView *GetView() const;
 };
 
-#endif /* _GUI_CFV_DOCUMENT_H_ */
+#endif /* _CRYPTO_FILE_GUI_CFV_DOCUMENT_H_ */

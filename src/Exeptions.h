@@ -1,5 +1,5 @@
-#ifndef _EXEPTIONS_H_
-#define _EXEPTIONS_H_
+#ifndef _CRYPTO_FILE_EXEPTIONS_H_
+#define _CRYPTO_FILE_EXEPTIONS_H_
 
 #include <stdexcept>
 #include <string>
@@ -62,4 +62,4 @@ public:
     }
 };
 
-#endif /* _EXEPTIONS_H_ */
+#endif /* _CRYPTO_FILE_EXEPTIONS_H_ */

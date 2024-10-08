@@ -1,5 +1,5 @@
-#ifndef _CACHE_H_
-#define _CACHE_H_
+#ifndef _CRYPTO_FILE_CACHE_H_
+#define _CRYPTO_FILE_CACHE_H_
 
 #include <functional>
 #include <map>
@@ -53,4 +53,4 @@ private:
     Store *m_store;
 };
 
-#endif /* _CACHE_H_ */
+#endif /* _CRYPTO_FILE_CACHE_H_ */

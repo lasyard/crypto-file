@@ -1,5 +1,5 @@
-#ifndef _SECTION_RECORD_H_
-#define _SECTION_RECORD_H_
+#ifndef _CRYPTO_FILE_SECTION_RECORD_H_
+#define _CRYPTO_FILE_SECTION_RECORD_H_
 
 #include <cstring>
 #include <ostream>
@@ -54,4 +54,4 @@ private:
     friend std::ostream &operator<<(std::ostream &os, const SectionRecord &obj);
 };
 
-#endif /* _SECTION_RECORD_H_ */
+#endif /* _CRYPTO_FILE_SECTION_RECORD_H_ */

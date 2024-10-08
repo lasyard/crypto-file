@@ -1,5 +1,5 @@
-#ifndef _STORE_H_
-#define _STORE_H_
+#ifndef _CRYPTO_FILE_STORE_H_
+#define _CRYPTO_FILE_STORE_H_
 
 #include <string>
 #include <vector>
@@ -41,4 +41,4 @@ public:
     }
 };
 
-#endif /* _STORE_H_ */
+#endif /* _CRYPTO_FILE_STORE_H_ */

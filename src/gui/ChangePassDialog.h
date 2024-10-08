@@ -1,5 +1,5 @@
-#ifndef _GUI_CHANGE_PASS_DIALOG_H_
-#define _GUI_CHANGE_PASS_DIALOG_H_
+#ifndef _CRYPTO_FILE_GUI_CHANGE_PASS_DIALOG_H_
+#define _CRYPTO_FILE_GUI_CHANGE_PASS_DIALOG_H_
 
 #include <wx/dialog.h>
 
@@ -20,4 +20,4 @@ protected:
     bool TransferDataFromWindow() override;
 };
 
-#endif /* _GUI_CHANGE_PASS_DIALOG_H_ */
+#endif /* _CRYPTO_FILE_GUI_CHANGE_PASS_DIALOG_H_ */

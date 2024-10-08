@@ -1,5 +1,5 @@
-#ifndef _SQLITE3STORE_H_
-#define _SQLITE3STORE_H_
+#ifndef _CRYPTO_FILE_SQLITE3STORE_H_
+#define _CRYPTO_FILE_SQLITE3STORE_H_
 
 #include "CryptoStore.h"
 
@@ -56,4 +56,4 @@ private:
     friend void recryptFun(sqlite3_context *ctx, int n, sqlite3_value **value);
 };
 
-#endif /* _SQLITE3STORE_H_ */
+#endif /* _CRYPTO_FILE_SQLITE3STORE_H_ */

@@ -1,5 +1,5 @@
-#ifndef _DIRECTORY_STORE_H_
-#define _DIRECTORY_STORE_H_
+#ifndef _CRYPTO_FILE_DIRECTORY_STORE_H_
+#define _CRYPTO_FILE_DIRECTORY_STORE_H_
 
 #include <filesystem>
 
@@ -32,4 +32,4 @@ private:
     static std::streamsize streamCopy(std::istream &in, std::ostream &out);
 };
 
-#endif /* _DIRECTORY_STORE_H_ */
+#endif /* _CRYPTO_FILE_DIRECTORY_STORE_H_ */

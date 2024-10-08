@@ -1,5 +1,5 @@
-#ifndef _CRYPTO_STORE_H_
-#define _CRYPTO_STORE_H_
+#ifndef _CRYPTO_FILE_CRYPTO_STORE_H_
+#define _CRYPTO_FILE_CRYPTO_STORE_H_
 
 #include "Crypto.h"
 #include "Store.h"
@@ -50,4 +50,4 @@ protected:
     virtual void encryptSection(const std::string &name, const std::string &content) = 0;
 };
 
-#endif /* _CRYPTO_STORE_H_ */
+#endif /* _CRYPTO_FILE_CRYPTO_STORE_H_ */

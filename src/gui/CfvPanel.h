@@ -1,5 +1,5 @@
-#ifndef _GUI_CFV_PANEL_H_
-#define _GUI_CFV_PANEL_H_
+#ifndef _CRYPTO_FILE_GUI_CFV_PANEL_H_
+#define _CRYPTO_FILE_GUI_CFV_PANEL_H_
 
 #include <wx/bookctrl.h>
 #include <wx/panel.h>
@@ -57,4 +57,4 @@ private:
     std::string GetSectionName(int sel) const;
 };
 
-#endif /* _GUI_CFV_PANEL_H_ */
+#endif /* _CRYPTO_FILE_GUI_CFV_PANEL_H_ */

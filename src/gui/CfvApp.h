@@ -1,5 +1,5 @@
-#ifndef _GUI_CFV_APP_H_
-#define _GUI_CFV_APP_H_
+#ifndef _CRYPTO_FILE_GUI_CFV_APP_H_
+#define _CRYPTO_FILE_GUI_CFV_APP_H_
 
 #include <wx/app.h>
 #include <wx/docview.h>
@@ -22,4 +22,4 @@ private:
 
 DECLARE_APP(CfvApp)
 
-#endif /* _GUI_CFV_APP_H_ */
+#endif /* _CRYPTO_FILE_GUI_CFV_APP_H_ */
