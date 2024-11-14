@@ -13,6 +13,7 @@ set(EMAIL "<lasyard@yeah.net>")
 add_compile_definitions(EMAIL="${EMAIL}")
 set(XRS_FILE resource.xrs)
 add_compile_definitions(XRS_FILE="${XRS_FILE}")
+string(TIMESTAMP CURRENT_YEAR "%Y")
 
 add_exe(${APP_NAME}
     CfvApp.cpp
